@@ -1,4 +1,4 @@
-### [Chromium browser extension for The New York Times](https://github.com/warren-bank/crx-New-York-Times)
+#### [Chromium browser extension for _The New York Times_](https://github.com/warren-bank/crx-New-York-Times)
 
 Read articles on [_The New York Times_ website](https://www.nytimes.com/) without a paywall.
 
