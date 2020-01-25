@@ -2,7 +2,7 @@ var payload = function(){
   // stop after 1 minute if no paywall is found when DOM is polled every 0.5 seconds
   let timeout = 120
 
-  const remove_pay_wall = () => {
+  const remove_paywall = () => {
     document.querySelector('#gateway-content').remove()
 
     // .css-1bd8bfl
@@ -14,7 +14,7 @@ var payload = function(){
 
   const test_paywall = () => {
     if (document.querySelector('#gateway-content'))
-      remove_pay_wall()
+      remove_paywall()
     else
       run_timer()
   }
